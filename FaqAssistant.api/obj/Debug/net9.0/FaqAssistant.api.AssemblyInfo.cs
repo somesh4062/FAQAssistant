@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FaqAssistant.api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a740d0d2f15a836317d66308ae4412f3e5dbf75")]
 [assembly: System.Reflection.AssemblyProductAttribute("FaqAssistant.api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FaqAssistant.api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

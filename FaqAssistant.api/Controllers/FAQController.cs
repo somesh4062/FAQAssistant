@@ -2,17 +2,20 @@ using System.Threading.Tasks;
 using FaqAssistant.api.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Npgsql;
 namespace FaqAssistant.api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
     public class FAQController : ControllerBase
     {
+         private readonly IConfiguration _configuration;
+         private readonly HttpClient _httpClient;
         private readonly AppDbContext _context;
-        public FAQController(AppDbContext context)
+        public FAQController(AppDbContext context, IConfiguration configuration, HttpClient httpClient)
         {
             _context = context;
+            _configuration = configuration;
+            _httpClient = httpClient;
         }
 
         [HttpGet("GetFAQs")]
@@ -264,6 +267,25 @@ namespace FaqAssistant.api.Controllers
             }
 
         }
+
+        // AI Intgreated FAQ methods can be added.
+        [HttpPost("GetAIGeneratedFAQs")]
+        public async Task<AIApiResponse> GetAIGeneratedFAQs(AIApiInput ai)
+        {
+            AIApiResponse response = new AIApiResponse();
+            LLMService service = new LLMService(_configuration, _httpClient);
+            try
+            {
+                Console.WriteLine(ai.prompt);
+                response = service.GetSuggestionsAsync(ai);              
+            }
+            catch (Exception ex)
+            {
+                response.isSuccess = false;
+                response.errorText = ex.Message;
+            }
+            return response;
+        }   
     }
 
 }

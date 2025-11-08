@@ -1,5 +1,6 @@
 /Users/somesh/Projects/FAQAssistant/FaqAssistant.api/bin/Debug/net9.0/appsettings.Development.json
 /Users/somesh/Projects/FAQAssistant/FaqAssistant.api/bin/Debug/net9.0/appsettings.json
+/Users/somesh/Projects/FAQAssistant/FaqAssistant.api/bin/Debug/net9.0/launch.json
 /Users/somesh/Projects/FAQAssistant/FaqAssistant.api/bin/Debug/net9.0/FaqAssistant.api.staticwebassets.endpoints.json
 /Users/somesh/Projects/FAQAssistant/FaqAssistant.api/bin/Debug/net9.0/FaqAssistant.api
 /Users/somesh/Projects/FAQAssistant/FaqAssistant.api/bin/Debug/net9.0/FaqAssistant.api.deps.json
@@ -114,6 +115,7 @@
 /Users/somesh/Projects/FAQAssistant/FaqAssistant.api/obj/Debug/net9.0/FaqAssistant.api.csproj.CoreCompileInputs.cache
 /Users/somesh/Projects/FAQAssistant/FaqAssistant.api/obj/Debug/net9.0/FaqAssistant.api.MvcApplicationPartsAssemblyInfo.cs
 /Users/somesh/Projects/FAQAssistant/FaqAssistant.api/obj/Debug/net9.0/FaqAssistant.api.MvcApplicationPartsAssemblyInfo.cache
+/Users/somesh/Projects/FAQAssistant/FaqAssistant.api/obj/Debug/net9.0/FaqAssistant.api.sourcelink.json
 /Users/somesh/Projects/FAQAssistant/FaqAssistant.api/obj/Debug/net9.0/rjimswa.dswa.cache.json
 /Users/somesh/Projects/FAQAssistant/FaqAssistant.api/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
 /Users/somesh/Projects/FAQAssistant/FaqAssistant.api/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
@@ -128,4 +130,3 @@
 /Users/somesh/Projects/FAQAssistant/FaqAssistant.api/obj/Debug/net9.0/FaqAssistant.api.pdb
 /Users/somesh/Projects/FAQAssistant/FaqAssistant.api/obj/Debug/net9.0/FaqAssistant.api.genruntimeconfig.cache
 /Users/somesh/Projects/FAQAssistant/FaqAssistant.api/obj/Debug/net9.0/ref/FaqAssistant.api.dll
-/Users/somesh/Projects/FAQAssistant/FaqAssistant.api/bin/Debug/net9.0/launch.json

@@ -1,6 +1,6 @@
 # FAQAssistant
 FAQ Assistant using .Net
-
+(To check LLM integrated from OpenRouter v2-llm branch)
 Setup Instructions
 Prerequisites
     - VS Code or Visual Studio
